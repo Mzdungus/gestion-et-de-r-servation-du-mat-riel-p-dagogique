@@ -1,0 +1,124 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.confirm-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(34, 255, 0, 0.261); /* Bordure verte */
+    box-shadow: 2px 2px 6px rgba(5, 255, 0, 0.685); /* Ombre légère */
+}
+
+.reject-button {
+    background-color: #f44336; /* Red */
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 0, 0, 0.479); /* Bordure verte */
+    box-shadow: 2px 2px 6px rgba(185, 9, 9, 0.774); /* Ombre légère */
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c2e3e;
+    color: #fff;
+}
+
+.table-container {
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #2c2e3e;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.actions {
+    text-align: center;
+}
+
+#reservation-details {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c2e3e;
+    color: #fff;
+}
+
+.table-container {
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #2c2e3e;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.actions {
+    text-align: center;
+}
+
+#reservation-details {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}

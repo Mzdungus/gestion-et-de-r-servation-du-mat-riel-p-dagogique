@@ -1,0 +1,107 @@
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+    flex-direction: column;
+    background-color: #0d002400;
+    margin: 20px;
+}
+
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid#716aca; /* Bordure verte */
+    box-shadow: 2px 2px 6px rgba(100, 177, 99, 0.29); /* Ombre légère */
+}
+.cont {
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid#716aca; /* Bordure verte */
+    box-shadow: 2px 2px 6px rgba(100, 177, 99, 0.29); /* Ombre légère */
+}
+form{
+    background-color: white;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 6px;
+    width: 350px;
+}
+.image-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+    margin: 5px;
+    border-radius: 6px;
+    width: 350px
+
+}
+.profilimg
+{
+    width: 350px;
+    height: 350px;
+}
+label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0);;
+}
+::-webkit-file-upload-button{
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #716aca;
+    border: none;
+    padding: 8px;
+
+}
+input{
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color:#706aca98;
+    border: none;
+    padding: 8px;
+    margin-top: 7px;
+   
+}
+.submit{
+    background-color: #716aca;
+    color: black;
+    font-size: 14px;
+
+}
+textarea{
+    resize: none;
+    border-radius: 5px;
+    border: 0.5 solid ;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+.box{
+    width: 300px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.image_p{
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
